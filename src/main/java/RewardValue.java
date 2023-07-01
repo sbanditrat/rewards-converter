@@ -22,11 +22,9 @@ public class RewardValue {
         return miles *0.0035;
     }
 
-    public int convertToMiles(double cash){
-        return (int) (cash/0.0035);
+    public int convertToMiles(double cash) {
+        return (int) (cash / 0.0035);
     }
-
-
     public int getMilesValue(){
         return milesValue;
     }
